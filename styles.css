@@ -1,0 +1,164 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F5F7FA;
+    width:100%;
+    height: 5vw;
+}
+nav ul li{
+    display: flex;
+    
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 10vw;
+    
+}
+li{
+    gap: 50px;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 500;
+    color: #18191F;
+    font-style: normal;
+    line-height: 24px;
+
+}
+.btn{
+    width: 10vw;
+    height: 3vw;
+    background-color: #4CAF4F;
+    color:#ffff ;
+    font-weight: 500;
+    font-family: 'inter';
+    font: size 11.5px; 
+    border: none;
+    border-radius: 3px;
+
+
+    
+
+}
+.logo img{
+    width: 3vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 7.5vw;
+}
+.logo h2{
+    font-family: 'Bebas Neue';
+    color: #263238;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+}
+.left{
+    width: 60%;
+    margin-left: 8vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+
+}
+.left h1{
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: semi-bold;
+    color: #4D4D4D;
+    font-size: 4vw;
+    line-height: 4.5vw;
+
+}
+.left h1 span{
+    color: #4CAF4F;
+      font-family: 'inter';
+    font-weight: 600;
+    font-style: semi-bold;
+    
+}
+.left p{
+    color: #717171;
+    font-size:1vw ;
+    font-family:'inter' ;
+    font-weight: 400;
+    line-height: 4vw;
+}
+.btn2{
+  width: 10vw;
+    height: 3vw;
+    background-color: #4CAF4F;
+    color:#ffff ;
+    font-weight: 500;
+    font-family: 'inter';
+    font: size 11.5px; 
+    border: none;   
+    border-radius: 3px;
+    margin-top: 2vw;
+
+}
+
+.right{
+    width: 40%;
+    margin-top: 5vw;
+
+
+}
+.right img{
+    width: 25vw;
+
+}
+main{
+    display: flex;
+}
+.submain h2{
+    color:#4D4D4D ;
+    font-size: 2vw;
+    font-family:'inter' ;
+    font-weight: 600;
+    font-style: semi-bold;
+    justify-content: center;
+    align-items: center;
+
+}
+.submain2 p{
+    color: #717171;
+    font-family: 'inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    margin-left: 34vw;
+    line-height: 3vw;
+    
+}
+.submain{
+margin-left: 40vw;
+margin-top: 6vw;
+}
+.submain3{
+    width: 40vw;
+    height: 20vw;
+    background-color:red;
+}
