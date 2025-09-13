@@ -158,7 +158,114 @@ margin-left: 40vw;
 margin-top: 6vw;
 }
 .submain3{
-    width: 40vw;
-    height: 20vw;
-    background-color:red;
+    
+    
+    margin-left:33vw;
+    
+     color:#4D4D4D ;
+    font-size: 1.3vw;
+    font-family:'Inter' ;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    
+}
+.break{
+    margin-left: 6vw;
+    line-height: 3.5vw;
+}
+.para p{
+    color:#717171 ;
+    font-family: 'Inter';
+    font-size: 1vw;
+    font-weight: 400;
+    font-style:Regular;
+    margin-left: 40vw;
+    
+}
+.dot{
+    width: 2vw;
+    
+    margin-left: 45vw;
+    margin-top: 5vw;
+}
+.icons{
+    display: flex;
+    gap: 8vw;
+    margin-top:3vw;
+    margin-left: 16vw;
+}
+.portion{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+.portion h2{
+    color:#4D4D4D ;
+    font: size 1.8em;
+    font-family: 'Inter';
+    font-weight:700 ;
+    font-style:bold ;
+}
+ .portion p{
+    color: #717171;
+    font-family: 'inter';
+    font-size: 1vw; ;
+    font-weight: 400;
+    font-style:regular; 
+
+}
+.box1{
+    width: 20%;
+    
+    
+}
+.box2{
+    width: 20%;
+    
+
+}
+.box3{
+
+width: 20%;}
+.box1 img{
+    margin-left: 7vw;
+    width: 4vw;
+}
+.box2 img{
+    margin-left: 7vw;
+    width: 4vw;
+    text-align: center;
+}
+.box3 img{
+    margin-left: 7vw;
+    width: 4vw;
+}
+.color{
+    color:#F5F7FA;
+}
+.box1 h2{
+    margin-left: 3vw;
+    
+}
+.box1 p{
+    line-height: 1.3vw;
+    margin-top: 1vw;
+}
+.box2 p{
+    line-height: 1.3vw;
+    margin-top: 1vw;
+
+}
+.box3 p{
+    line-height: 1.3vw;
+    margin-top: 1vw;
+}
+.box2 h2{
+    margin-left: 4vw;
+}
+.box3 h2{
+    margin-left: 4vw;
 }
