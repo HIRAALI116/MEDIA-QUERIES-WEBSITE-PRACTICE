@@ -113,7 +113,7 @@ li{
     color:#ffff ;
     font-weight: 500;
     font-family: 'inter';
-    font: size 11.5px; 
+    font-size:  15px; 
     border: none;   
     border-radius: 3px;
     margin-top: 2vw;
@@ -219,37 +219,37 @@ margin-top: 6vw;
 }
 .box1{
     width: 20%;
-    
+    text-align: center;
     
 }
 .box2{
     width: 20%;
+    text-align: center;
+    
     
 
 }
 .box3{
-
+text-align: center;
 width: 20%;}
 .box1 img{
-    margin-left: 7vw;
+
     width: 4vw;
 }
 .box2 img{
-    margin-left: 7vw;
+
+
     width: 4vw;
-    text-align: center;
+    
 }
 .box3 img{
-    margin-left: 7vw;
+    
     width: 4vw;
 }
 .color{
     color:#F5F7FA;
 }
-.box1 h2{
-    margin-left: 3vw;
-    
-}
+
 .box1 p{
     line-height: 1.3vw;
     margin-top: 1vw;
@@ -263,9 +263,103 @@ width: 20%;}
     line-height: 1.3vw;
     margin-top: 1vw;
 }
-.box2 h2{
-    margin-left: 4vw;
+
+.portion2{
+    display: flex;
+    
 }
-.box3 h2{
-    margin-left: 4vw;
+.left1{
+    width: 60%;
+    margin-right: 7vw;
+    margin-top: 9vw;
+    
 }
+.right1{
+    width: 40%;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    
+}
+
+.left1 h2{
+    color: #4D4D4D;
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 2vw;
+    line-height: 2rem;
+
+}
+.left1 p{
+    color:#717171;
+    font-family:'inter';
+    font-weight: 400;
+    font-style:Regular;
+    font-size: 1vw;
+    line-height: 1rem;
+    margin-top: 1vw;
+}
+.btn3{
+   background-color: #4CAF4F;
+   color:#ffff;
+height: 3vw;
+border: none;
+border-radius: 2px;
+    width: 9vw;
+margin-top: 2vw;
+}
+.portion3{
+    display: flex;
+    margin-top: 8vw;
+}
+.right2 {
+    width: 50%;
+    margin-left: 10vw;
+
+}
+.right2 h2{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size:2vw ;
+    font-style:ssemi-bold ;
+    color: #4D4D4D;
+}
+.right2 p{
+    color:#18191F ;
+    font-size: 1vw;
+    font-family: 'inter';
+    font-weight:400 ;
+font-style: regular;
+line-height: 2vw;
+}
+.right2 h2 span{
+    color: #4CAF4F;
+
+}
+/* .left2{
+    width:60%;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns banay ga */
+  /* gap: 20px; /* boxes ke darmiyan space */
+    
+
+/* .left2 h2{
+    color: #4D4D4D;
+    font-size: 2vw;
+    font-family: 'inter';
+    font-weight: 700;
+    font-style: semi-bold;
+}
+.left2 p{
+    color: #717171;
+    font-size: 1vw;
+    font-family: 'inter';
+    font-weight: 400;
+    font-style: regular; */
+
+  
+   */ */
+
+
+
+
