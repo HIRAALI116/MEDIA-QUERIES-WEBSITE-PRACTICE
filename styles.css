@@ -119,6 +119,9 @@ li{
     margin-top: 2vw;
 
 }
+.color{
+    background-color: rgb(245, 241, 241);
+}
 
 .right{
     width: 40%;
@@ -201,6 +204,7 @@ margin-top: 6vw;
     display: flex;
     justify-content: space-evenly;
     margin-top: 2vw;
+    background-color: #FFFFFF;
 }
 .portion h2{
     color:#4D4D4D ;
@@ -263,7 +267,19 @@ width: 20%;}
     line-height: 1.3vw;
     margin-top: 1vw;
 }
+.box1,.box2,.box3,.box4{
+     text-align: center;
+    background-color: #fff;
+    box-shadow: #717171;
+    width: 15vw;
+    height: auto;
+    padding: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border: none;
+    border-radius: 3vw;
 
+}
 .portion2{
     display: flex;
     
@@ -308,21 +324,23 @@ border-radius: 2px;
     width: 9vw;
 margin-top: 2vw;
 }
-.portion3{
+/* .portion3{
     display: flex;
     margin-top: 8vw;
     background-color: #F5F7FA;
     gap: 20vw;
+    
 }
 .right2 {
     
     margin-left: 10vw;
+    
 
-}
+} */
 .right2 h2{
     font-family: 'inter';
     font-weight: 600;
-    font-size:2vw ;
+    font-size:2.5vw ;
     font-style:ssemi-bold ;
     color: #4D4D4D;
 }
@@ -340,7 +358,7 @@ line-height: 2vw;
 }
 .portion4{
     background-color:#F5F7FA;
-    margin-top: 30vw;
+    margin-top: 5vw;
     text-align: center;
 }
 
@@ -373,26 +391,117 @@ line-height: 2vw;
 .portion5{
     background-color: #263238;
     width: 100%;
-    height: 50%;
+    height: auto;
     display: flex;
+    margin-top: 2vw;
     
 }
 .row1 ,.row2{
+    
+    gap: 10vw;
+
+}
+.row1{
+    justify-content: center;
+    align-items: center;
+    margin-right: 30vw;
+    gap: 8vw;
     display: flex;
-    gap: 5vw;
+
 }
 .minibox1{
     display: flex;
+    width: 8vw;
+    
 }
 .minibox2{
     display: flex;
+    width: 8vw;
+    height: auto;
 }
 .minibox3{
     display: flex;
+    width: 8vw;
+    height: auto;
 }
+
 .minibox4{
     display: flex;
+      width: 8vw;
+    height: auto;
+
 }
+/* .left2{
+    
+    
+    justify-content: center;
+    gap: 5vw;
+    
+
+
+} */
+.row1{
+     display: flex;
+    justify-content: flex-start;
+    gap: 10vw;
+
+    
+
+}
+.row2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10vw;
+    margin-top: 3vw;
+    
+}
+/* .left2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw; */
+
+.minibox1,.minibox2,.minibox3,.minibox4{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2vw;
+}
+.portion3 {
+    display: flex;
+    margin-top: 8vw;
+    background-color: #F5F7FA;
+    justify-content: space-between; /* auto gap instead of 20vw */
+    align-items: flex-start;
+    padding: 5vw 8vw; /* controlled padding instead of margin hacks */
+    gap: 9vw; /* smaller gap */
+}
+
+.right2 {
+    flex: 1;  /* allow equal share */
+    max-width: 60%; /* prevent squeeze */
+}
+
+.left2 {
+    flex: 1; 
+    max-width: 40%; /* allow equal share */
+    
+}
+
+.span{
+color: #3a3939;
+    font-size: 1.9vw;
+    font-family: inter;
+    font-weight: 500;
+}
+.content4 p{
+
+    color: #4D4D4D;
+    font-family: inter;
+    margin-top: 1vw;
+
+}
+
 .circle1{
     background-color:#434749;
     border-radius:50px ;
@@ -417,7 +526,7 @@ line-height: 2vw;
 }
 .local{
     display: flex;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 .right3 p{
     
@@ -435,11 +544,165 @@ line-height: 2vw;
 }
 .right3{
     margin-left: 8vw;
-    margin-top: 5vw;
+    
+
+    
 }
 .local img{
     margin-top: 3vw;
 }
-{
-    display: flex;
+.company h2{
+    color: #FFFFFF;
+    font-size:1.2vw ;
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: semi-bold;
+
 }
+/* .list ul li{
+    list-style: none;
+    
+  padding: 0;
+  margin: 0;
+  display: block; /* important: vertical rakhta hai */
+/* }
+
+.list li {
+  display: block;   /* force vertical */
+  /* color: #ddd;
+  margin-bottom: 0.7vw;
+  cursor: pointer;
+  transition: color 0.3s;
+/* }
+
+
+    
+.company{
+    display: flex;
+    flex-direction: column;
+}  */  
+
+.portion5 {
+  background-color: #263238;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 8vw;
+  color: #fff;
+  flex-wrap: wrap; /* responsive ke liye */
+}
+
+.right3 {
+  flex: 1;
+  max-width: 30%;
+}
+
+.left3 {
+  flex: 2;
+  display: flex;
+  justify-content: space-between; /* teen columns barabar */
+  gap: 4vw;
+}
+
+/* har column ka base */
+.company,
+.support,
+.stay-upto-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+/* headings */
+.company h2,
+.support h2,
+.stay-upto-date h2 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-bottom: 1vw;
+}
+
+/* lists */
+.company ul,
+.support ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.company ul li,
+.support ul li {
+  margin-bottom: 0.7vw;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+
+
+.company ul,
+.support ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block !important;   /* force vertical layout */
+}
+
+.company ul li,
+.support ul li {
+  display: block !important;   /* har item new line pe */
+  color: #ddd;
+  margin-bottom: 0.7vw;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+html, body {
+  overflow-x: hidden; /* horizontal scroll band */
+}
+.support h2{
+    color: #FFFFFF;
+    font-size:1.2vw ;
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: semi-bold;}
+.stay-upto-date h2{
+    color: #FFFFFF;
+    font-size:1.2vw ;
+    font-family: 'inter';
+    font-weight: 600;
+    font-style: semi-bold;}
+    .stay-upto-date {
+    position: relative; 
+    width: 250px; 
+    margin-right: 10vw;/* apne design ke mutabiq */
+}
+
+
+
+
+ input{
+    color: #fff;
+    width: 15vw;
+    height:5vh;
+ background-color: #717171; 
+    border: none;
+    border-radius: 0.5vw;
+    padding: 0.5em;
+    margin-top: 1vw;
+
+}
+input::placeholder{
+    color: rgb(232, 241, 241);
+
+}
+
+.final i{
+    
+    color: black;
+    margin-top: 1vw;
+    margin-left: 0.8vw;
+}
+    
+
+
+
