@@ -59,6 +59,7 @@ li{
     
 
 }
+
 .logo img{
     width: 3vw;
 }
@@ -698,11 +699,8 @@ input::placeholder{
 
 .final i{
     
-    color: black;
+    color:white;
     margin-top: 1vw;
     margin-left: 0.8vw;
 }
-    
-
-
 
