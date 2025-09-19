@@ -76,6 +76,9 @@ li{
     font-weight: 200;
     
 }
+.hamburger{
+ display: none;
+}
 .left{
     width: 60%;
     margin-left: 8vw;
@@ -197,10 +200,12 @@ margin-top: 6vw;
 }
 .icons{
     display: flex;
+    
     gap: 8vw;
     margin-top:3vw;
-    margin-left: 16vw;
+    margin-left: 12vw;
 }
+
 .portion{
     display: flex;
     justify-content: space-evenly;
@@ -240,15 +245,17 @@ width: 20%;}
 .box1 img{
 
     width: 4vw;
+
+    margin-left: 5vw;
 }
 .box2 img{
 
-
+margin-left: 4.5vw;
     width: 4vw;
     
 }
 .box3 img{
-    
+ margin-left: 4.5vw;   
     width: 4vw;
 }
 .color{
